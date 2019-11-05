@@ -4,15 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --expose-gc ./node_modules/.bin/jest --logHeapUsage --detectLeaks --runInBand",
-    "testbase": "node --expose-gc ./node_modules/.bin/jest --logHeapUsage --runInBand"
+    "test": "node --expose-gc ./node_modules/.bin/jest --logHeapUsage --detectLeaks --runInBand"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
     "jest": "^25.0.0",
-    "supertest": "^4.0.2",
     "weak-napi": "^1.0.3"
   }
 }
